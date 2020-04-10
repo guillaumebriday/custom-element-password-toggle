@@ -10,6 +10,8 @@
 
 ## Getting started
 
+This component is a [Custom Element](https://developer.mozilla.org/en-US/docs/Web/Web_Components) written in pure vanilla JavaScript. It's designed to toggle the password visibility in an easy way. 
+
 ## Installation
 
 This package is written with the new ES6 syntax. You can import it directly in your browser with [UNPKG](https://unpkg.com/).
