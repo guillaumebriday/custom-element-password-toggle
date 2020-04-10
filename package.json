@@ -9,11 +9,16 @@
   "scripts": {
     "serve": "http-server ./src -p 8080",
     "format": "prettier-standard  '**/*.{js,css,html}' --format",
-    "lint": "prettier-standard  '**/*.{js,css,html}' --lint"
+    "lint": "prettier-standard  '**/*.{js,css,html}' --lint",
+    "test": "jest"
   },
   "devDependencies": {
     "http-server": "0.12.1",
     "husky": "4.2.5",
-    "prettier-standard": "16.2.1"
+    "jest": "25.3.0",
+    "jest-dev-server": "4.4.0",
+    "jest-puppeteer": "4.4.0",
+    "prettier-standard": "16.2.1",
+    "puppeteer": "2.1.1"
   }
 }
