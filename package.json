@@ -1,0 +1,19 @@
+{
+  "name": "custom-element-password-toggle",
+  "version": "1.0.0",
+  "description": "Password Toggle Custom Element written in pure vanilla JavaScript",
+  "main": "src/index.js",
+  "repository": "git@github.com:guillaumebriday/custom-element-password-toggle.git",
+  "author": "Guillaume Briday <guillaumebriday@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "http-server ./src -p 8080",
+    "format": "prettier-standard  '**/*.{js,css,html}' --format",
+    "lint": "prettier-standard  '**/*.{js,css,html}' --lint"
+  },
+  "devDependencies": {
+    "http-server": "0.12.1",
+    "husky": "4.2.5",
+    "prettier-standard": "16.2.1"
+  }
+}

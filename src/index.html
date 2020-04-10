@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Toggle Custom Element</title>
+
+    <script defer type="module">
+      import './index.js'
+    </script>
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+    />
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad()
+    </script>
+  </head>
+
+  <body>
+    <div class="w-full max-w-6xl mx-auto mt-24 p-4">
+      <h1 class="text-center mb-8 text-5xl font-bold">
+        Password Toggle Custom Element
+      </h1>
+
+      <p class="text-center">
+        This component is a
+        <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">
+          Custom Element
+        </a>
+        written in pure vanilla JavaScript. It's designed to toggle the password visibility in an easy way.
+      </p>
+
+      <h2 class="text-center text-2xl font-bold my-4">Essential links</h2>
+
+      <ul class="text-center">
+        <li>
+          <a href="https://github.com/guillaumebriday/custom-element-password-toggle" target="_blank" rel="noopener">
+            Github
+          </a>
+        </li>
+
+        <li>
+          <a href="https://caniuse.com/#feat=custom-elementsv1">Browser support</a>
+        </li>
+      </ul>
+
+      <h2 class="text-2xl font-bold my-4">Examples</h2>
+
+      <div class="flex items-center border-b border-b-2 border border-gray-300 rounded-lg px-4 max-w-xs">
+        <input
+          type="password"
+          class="w-full outline-none pr-4 py-2"
+          placeholder="Enter your password"
+          autocomplete="new-password"
+          is="password-toggle"
+        />
+      </div>
+
+      <pre>
+      <code class="html">&lt;div class=&quot;flex items-center border-b border-b-2 border border-gray-300 rounded-lg px-4 max-w-xs&quot;&gt;
+    &lt;input type=&quot;password&quot; is=&quot;password-toggle&quot; class=&quot;w-full outline-none pr-4 py-2&quot; placeholder=&quot;Enter your password&quot; autocomplete=&quot;new-password&quot; /&gt;
+&lt;/div&gt;</code>
+    </pre>
+    </div>
+  </body>
+</html>
