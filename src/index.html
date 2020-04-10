@@ -36,7 +36,7 @@
         written in pure vanilla JavaScript. It's designed to toggle the password visibility in an easy way.
       </p>
 
-      <p class="text-center">
+      <p class="text-center badges">
         <a href="https://www.paypal.me/guillaumebriday">
           <img src="https://img.shields.io/badge/Donate-PayPal-green.svg" />
         </a>
@@ -68,6 +68,12 @@
         </li>
 
         <li>
+          <a href="https://www.npmjs.com/package/custom-element-password-toggle" target="_blank" rel="noopener">
+            Npm
+          </a>
+        </li>
+
+        <li>
           <a href="https://caniuse.com/#feat=custom-elementsv1">Browser support</a>
         </li>
       </ul>
@@ -88,7 +94,39 @@
       <code class="html">&lt;div class=&quot;flex items-center border-b border-b-2 border border-gray-300 rounded-lg px-4 max-w-xs&quot;&gt;
     &lt;input type=&quot;password&quot; is=&quot;password-toggle&quot; class=&quot;w-full outline-none pr-4 py-2&quot; placeholder=&quot;Enter your password&quot; autocomplete=&quot;new-password&quot; /&gt;
 &lt;/div&gt;</code>
-    </pre>
+      </pre>
+
+      <h2 class="text-2xl font-bold my-4">Installation</h2>
+
+      <p>
+        This package is written with the new ES6 syntax. You can import it directly in your browser with
+        <a href="https://unpkg.com/">UNPKG</a>
+        .
+      </p>
+
+      <pre>
+        <code class="html">&lt;script type=&quot;module&quot; defer&gt;
+  import 'https://unpkg.com/custom-element-password-toggle'
+&lt;/script&gt;</code>
+      </pre>
+
+      <p>You can also install it with npm or yarn:</p>
+
+      <pre>
+        <code class="shell">$ yarn add custom-element-password-toggle</code>
+      </pre>
+
+      <pre>
+        <code class="html">&lt;script type=&quot;module&quot; defer&gt;
+  import 'custom-element-password-toggle'
+&lt;/script&gt;</code>
+      </pre>
+
+      <p>Then use it on your input fields:</p>
+
+      <pre>
+        <code class="html">&lt;input type=&quot;password&quot; is=&quot;password-toggle&quot; /&gt;</code>
+      </pre>
     </div>
   </body>
 </html>

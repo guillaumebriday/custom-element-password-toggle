@@ -13,8 +13,11 @@ li {
 
 a {
   color: #42b983;
-  margin: 0 0.25rem;
   display: inline-block;
+}
+
+.badges a {
+  margin: 0 0.25rem;
 }
 
 pre code {
