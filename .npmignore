@@ -1,0 +1,9 @@
+.github
+.eslintrc.js
+.huskyrc.js
+.prettierrc.js
+jest-puppeteer.config.js
+jest.config.js
+src/style.css
+src/index.html
+src/index.test.js
