@@ -25,6 +25,7 @@ export default class PasswordToggle extends window.HTMLInputElement {
   createButton (el) {
     const button = document.createElement('button')
 
+    button.type = 'button'
     button.style.background = 'transparent'
     button.style.border = '0'
     button.style.cursor = 'pointer'
